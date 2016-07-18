@@ -1,0 +1,241 @@
+.hero--female {
+  background: #eee;
+}
+
+.hero {
+  * {
+    -webkit-font-smoothing: antialiased;
+  }
+  background-image: none;
+  position: relative;
+  background: #eee;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (min-width: 600px) {
+  .hero {
+    background-position: 350px center;
+    background-size: contain;
+  }
+}
+
+@media (min-width: 1090px) {
+  .hero {
+    background-position: right center;
+  }
+}
+
+.hero__background-container {
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+@media (min-width: 400px) {
+  .hero__background-container--female {
+    background-image: url(/assets//img/dropbox-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 300px center;
+  }
+}
+
+@media (min-width: 600px) {
+  .hero__background-container {
+    background-position: 370px center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1019px) {
+  .hero__background-container {
+    background-size: contain;
+  }
+}
+
+@media (min-width: 1201px) {
+  .hero__background-container {
+    width: 1770px;
+    position: absolute;
+    left: 50%;
+    margin-left: -885px;
+    background-position: right center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    z-index: 1;
+    padding: 0;
+  }
+}
+
+.hero .top-section {
+  margin: 0 auto;
+  max-width: 990px;
+  box-sizing: content-box;
+  position: relative;
+  padding: 20px;
+  min-height: 400px;
+  z-index: 2;
+}
+
+@media (min-width: 400px) {
+  .hero .top-section {
+    text-align: left;
+    margin: 0;
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero .top-section {
+    text-align: left;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    min-height: 550px;
+  }
+}
+
+@media (min-width: 991px) {
+  .hero .top-section {
+    position: relative;
+    margin: 0 auto;
+  }
+}
+
+.top-section__container {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.hero__header, .hero__sub-header {
+  font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+  font-weight: 100;
+}
+
+.hero__header {
+  font-size: 47.25px;
+  line-height: 1.3;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero__header {
+    font-size: 31px;
+    max-width: 350px;
+  }
+}
+
+.hero__sub-header {
+  font-size: 21px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+  color: #47525d;
+  font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero__sub-header {
+    font-size: 16px;
+    max-width: 330px;
+  }
+}
+
+@media (min-width: 600px) {
+  .hero__header, .hero .hero__sub-header {
+    width: 300px;
+    text-align: left;
+    display: block;
+    color: #47525d;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero .hero__sub-header {
+    width: 450px;
+  }
+}
+
+.hero {
+  .hero__header {
+    margin-bottom: 20px;
+  }
+  .try-business-cta {
+    float: left;
+    margin: 30px 0 0 0;
+    text-align: center;
+    background: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero .hero__header {
+    width: 450px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero__sub-header, .hero__header {
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+@media (min-width: 400px) {
+  .hero .try-business-cta {
+    float: left;
+  }
+}
+
+.try-business-cta {
+  margin: 85px auto 55px;
+  text-align: center;
+  -webkit-transition: opacity 0.5s ease-in-out 0s;
+  transition: opacity 0.5s ease-in-out 0s;
+}
+
+.hero {
+  .try-business-cta {
+    .try-business-cta__button {
+      font-family: "Open Sans";
+      margin: 0;
+      padding: 19px 26px;
+      font-size: 21px;
+      line-height: 21px;
+      background: #0071e0;
+      color: #fff;
+      display: block;
+      text-align: center;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      &:hover {
+        background: #3398ea;
+      }
+    }
+    .try-business-cta__footer {
+      text-align: left;
+      margin-top: 15px;
+      font-size: 16px;
+      color: #47525d;
+      text-align: left;
+      margin-bottom: 0;
+      display: block;
+    }
+  }
+  .try-business-cta__footer a {
+    border-bottom: 1px solid #0071e0;
+    color: #0071e0;
+    text-decoration: none;  
+    &:hover {
+      color: #3398ea;
+    }
+  }
+}  

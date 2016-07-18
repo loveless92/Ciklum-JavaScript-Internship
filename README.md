@@ -1,2 +1,2 @@
-# Ciklum-JavaScript-Internship
-Ciklum-JavaScript-Internship
+# Ciklum-task
+Ciklum Test Task

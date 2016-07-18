@@ -1,0 +1,245 @@
+.invisionapp {
+  background: #323a45;
+  text-align: center;
+  padding: 111px 0 145px;
+}
+
+.inside {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+  clear: both;
+}
+
+.signup-form-wrapper p.terms, .hero-signup-wrapper p.terms {
+  font-size: 12px;
+}
+
+.invisionapp {
+  p {
+    font-size: 18px;
+    line-height: 1.8em;
+    color: #747c83;
+  }
+  h2 {
+    color: white;
+    font: 300 35px/52px "Open Sans", "open-sans", sans-serif;
+    margin-bottom: 55px;
+  }
+  .terms {
+    font-size: 12px;
+    line-height: 1.8em;
+    color: #747c83;
+  }
+  .footer-signup p input[type=text] {
+    width: 280px;
+    height: 63px;
+    padding-left: 48px;
+  }
+}
+
+.footer-signup p input[type=password] {
+  width: 280px;
+  height: 63px;
+  padding-left: 48px;
+}
+
+.invisionapp {
+  form {
+    display: inline-block;
+    margin-bottom: 31px;
+    input {
+      &[type=text], &[type=search], &[type=email], &[type=password] {
+        background: white;
+        width: 232px;
+        line-height: 1em;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        padding: 18px 15px;
+        margin-right: 10px;
+        border: 1px solid #d4d7da;
+      }
+    }
+    label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 18px;
+      color: #8a959e;
+      margin: 16px 0px 0px 16px;
+      font-weight: 400;
+      transition: 0.5s;
+    }
+  }
+  button {
+    display: inline-block;
+    height: 62px;
+    padding: 21px 40px 19px;
+    background: #f36;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1em;
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    -moz-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+    &:hover {
+      background: #f42156;
+    }
+  }
+  input[type=text] {
+    width: 280px;
+    height: 63px;
+    padding-left: 48px;
+  }
+}
+
+.footer-signup p input[type=password] {
+  width: 280px;
+  height: 63px;
+  padding-left: 48px;
+}
+
+.invisionapp {
+  form p {
+    position: relative;
+    float: left;
+    margin: 0;
+  }
+  .ico-user {
+    display: inline-block;
+    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+    background-image: url(https://www.invisionapp.com/assets/img/sprites/global-s116e8c6936.png);
+    background-position: 0 -474px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.invisionapp.com/assets/img/sprites-retina/global-s6dadb11278.png);
+    background-position: 0 -363.5px;
+    -moz-background-size: 141px auto;
+    -o-background-size: 141px auto;
+    -webkit-background-size: 141px auto;
+    background-size: 141px auto;
+  }
+  .ico-email {
+    background-image: url(https://www.invisionapp.com/assets/img/sprites-retina/global-s6dadb11278.png);
+    background-position: 0 -295.5px;
+    -moz-background-size: 141px auto;
+    -o-background-size: 141px auto;
+    -webkit-background-size: 141px auto;
+    background-size: 141px auto;
+  }
+}
+
+.ico-email {
+  display: inline-block;
+  vertical-align: middle;
+  height: 24px;
+  width: 24px;
+  background-image: url(https://www.invisionapp.com/assets/img/sprites-retina/global-s6dadb11278.png);
+  background-position: 0 -386px;
+  background-repeat: no-repeat;
+}
+
+.invisionapp .ico-lock {
+  background-image: url(https://www.invisionapp.com/assets/img/sprites-retina/global-s6dadb11278.png);
+  background-position: 0 -329.5px;
+  -moz-background-size: 141px auto;
+  -o-background-size: 141px auto;
+  -webkit-background-size: 141px auto;
+  background-size: 141px auto;
+}
+
+.ico-lock {
+  display: inline-block;
+  vertical-align: middle;
+  height: 24px;
+  width: 24px;
+  background-image: url(https://www.invisionapp.com/assets/img/sprites-retina/global-s6dadb11278.png);
+  background-position: 0 -430px;
+  background-repeat: no-repeat;
+}
+
+.footer-signup p {
+  label {
+    margin-left: 50px;
+  }
+  i {
+    position: absolute;
+    top: 18px;
+    left: 15px;
+  }
+}
+
+.invisionapp form input {
+  &[type=text], &[type=search], &[type=email], &[type=password] {
+    background: #fff;
+    width: 232px;
+    line-height: 1em;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 18px 15px;
+    margin-right: 10px;
+    border: 1px solid #d4d7da;
+  }
+}
+
+.footer-signup p input {
+  &[type=text], &[type=password] {
+    width: 280px;
+    height: 63px;
+    padding-left: 48px;
+  }
+}
+
+.invisionapp input:focus {
+  outline: none;
+}
+
+form {
+  input {
+    &[type=text].error, &[type=search].error, &[type=email].error, &[type=password].error {
+      border-color: #f36;
+    }
+    &.error {
+      border-color: #f36;
+      box-shadow: 0 0 0 1px #f36;
+    }
+  }
+  textarea.error {
+    border-color: #f36;
+    box-shadow: 0 0 0 1px #f36;
+  }
+}
+
+.terms a {
+  color: #747c83;
+  text-decoration: underline;
+  &:hover {
+    color: #fff;
+  }
+}
+
+@media (max-width: 1170px) {
+  .invisionapp form p{
+    float: none;
+    margin: 0 0 12px 0px;
+  }
+
+  .footer-signup p input[type=password], .footer-signup p input[type=text] {
+    width: 310px;
+  }
+
+  .invisionapp form input[type=email], .invisionapp form input[type=password], .invisionapp form input[type=search], .invisionapp form input[type=text]{
+    margin-right: 0;
+  }
+}
